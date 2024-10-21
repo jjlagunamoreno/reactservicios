@@ -21,7 +21,7 @@ import MenuRutas from './components/MenuRutas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BuscadorCoches />
+  // <BuscadorCoches />
   // <BuscadorCustomer />
   // <BuscadorCoches />
   // <BuscadorCochesAaron />
@@ -32,8 +32,10 @@ root.render(
   //   {/* <TablaMultiplicar numero="7" />
   //   <TablaMultiplicar numero="2" /> */}
   //   <MenuRutas />
-  //   <Router />
+  //   {/* <Router /> */}
+  //   {/* <BuscadorCoches /> */}
   // </div>
+  <Router />
 );
 
 // If you want to start measuring performance in your app, pass a function
