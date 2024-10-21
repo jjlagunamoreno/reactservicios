@@ -62,7 +62,7 @@ export default class BuscadorCoches extends Component {
 
                 {/* mostramos los datos que queremos mostrar al usuario en esta tabla */}
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                    <table style={{ alignItems: "center" }}>
+                    <table border="1px" className='table table-danger'>
                         <thead>
                             <th>Modelo</th>
                             <th>Conductor</th>

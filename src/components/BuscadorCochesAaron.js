@@ -54,7 +54,7 @@ export default class BuscadorCoche extends Component {
                 {
                     this.state.marcaSeleccionada &&
                     (
-                        <table border={"1px"} >
+                        <table border="1px" className='table table-danger' >
                             <thead>
                                 <tr>
                                     <th>Coche</th>
