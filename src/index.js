@@ -18,6 +18,7 @@ import Departamentos from './components/MaestroDetalle/Departamentos';
 import TablaMultiplicar from './components/TablaMultiplicar'
 import Router from './components/Router';
 import MenuRutas from './components/MenuRutas';
+import HospitalesMultiple from "./components/HospitalesMultiple";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,7 +36,8 @@ root.render(
   //   {/* <Router /> */}
   //   {/* <BuscadorCoches /> */}
   // </div>
-  <Router />
+  // <Router />
+  <HospitalesMultiple />
 );
 
 // If you want to start measuring performance in your app, pass a function
